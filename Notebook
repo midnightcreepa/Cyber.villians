@@ -1,0 +1,17 @@
+<script src="https://embed.tonicdev.com"></script>
+
+<script>
+var notebook = Tonic.createNotebook({
+    // the parent element for the new notebook
+    element: document.getElementById("my-element"),
+
+    // specify the source of the notebook
+    source: "\"hello world\"",
+
+    // optionally, set the notebook to be read-only
+    readOnly: false,
+
+    // optionally, provide a callback to be called when the notebook has finished loading
+    onLoad: function(){}
+})
+</script>
